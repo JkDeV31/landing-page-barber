@@ -355,7 +355,8 @@ img {
 a {
   cursor: pointer;
   text-decoration: none;
-}/* Indicador de foco para navegação por teclado, preservando o layout original. */
+}
+
 :focus-visible {
   outline: 3px solid #d94140;
   outline-offset: 3px;
