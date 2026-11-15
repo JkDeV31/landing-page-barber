@@ -10,11 +10,12 @@ Este projeto foi desenvolvido como exercício prático de construção de interf
 
 ## Funcionalidades e elementos da página
 
-- Seção inicial com chamada principal e botão de contato.
+- Seção inicial com chamada principal e navegação interna para os serviços.
 - Apresentação da barbearia e dos serviços, com imagens e valores ilustrativos.
 - Layout com adaptações para diferentes larguras de tela.
 - Animações de entrada com a biblioteca AOS.
-- Mapa incorporado e links demonstrativos para redes sociais e WhatsApp.
+- Mapa ilustrativo incorporado e ícones de redes sociais ainda demonstrativos.
+- Aviso visível de que a página é um projeto educacional sem agendamento real.
 
 ## Tecnologias utilizadas
 
@@ -49,10 +50,12 @@ O CSS compilado já está incluído no repositório. Não é necessário compila
 ## Estado atual e limitações
 
 - Há textos provisórios (`Lorem ipsum`) nas seções de apresentação.
-- Os links de redes sociais usam destinos ilustrativos (`#`).
-- O link de WhatsApp utiliza um número fictício; **não há um sistema real de agendamento**.
+- Os seis links de redes sociais ainda usam destinos ilustrativos (`#`) e precisam de revisão.
+- Os dois CTAs que anteriormente simulavam agendamento agora navegam para a seção **Serviços**, sem abrir um WhatsApp fictício.
+- O atalho flutuante de WhatsApp fictício foi retirado; **não há um sistema real de agendamento**.
+- Os preços ainda são apresentados como elementos `<button>` sem ação — melhoria futura.
 - O mapa é ilustrativo, não a localização de um estabelecimento contratado.
-- A experiência de navegação por teclado e os metadados de SEO ainda precisam de revisão.
+- O indicador de foco para navegação por teclado já foi corrigido no PR #1; uma auditoria completa de acessibilidade continua pendente, assim como a revisão dos metadados de SEO.
 
 Esses pontos estão documentados para diferenciar a demonstração educacional de um produto pronto para uso comercial.
 
