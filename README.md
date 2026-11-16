@@ -53,7 +53,7 @@ O CSS compilado já está incluído no repositório. Não é necessário compila
 - Os seis links antes fictícios (`#`) foram substituídos por GitHub, LinkedIn e e-mail do autor, com nomes acessíveis. Esses contatos pertencem ao desenvolvedor, **não à barbearia demonstrativa**.
 - Os dois CTAs que anteriormente simulavam agendamento agora navegam para a seção **Serviços**, sem abrir um WhatsApp fictício.
 - O atalho flutuante de WhatsApp fictício foi retirado; **não há um sistema real de agendamento**.
-- Os preços ainda são apresentados como elementos `<button>` sem ação — melhoria futura.
+- Os três preços ilustrativos são apresentados como etiquetas informativas (`<span class="haircut-price">`), sem simular botões ou agendamento real.
 - O mapa é ilustrativo, não a localização de um estabelecimento contratado.
 - O indicador de foco para navegação por teclado já foi corrigido no PR #1; uma auditoria completa de acessibilidade continua pendente, assim como a revisão dos metadados de SEO.
 
