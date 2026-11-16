@@ -54,7 +54,7 @@ O CSS compilado já está incluído no repositório. Não é necessário compila
 - Os dois CTAs que anteriormente simulavam agendamento agora navegam para a seção **Serviços**, sem abrir um WhatsApp fictício.
 - O atalho flutuante de WhatsApp fictício foi retirado; **não há um sistema real de agendamento**.
 - Os três preços ilustrativos são apresentados como etiquetas informativas (`<span class="haircut-price">`), sem simular botões ou agendamento real.
-- O Google Maps incorporado foi preservado como demonstração técnica. A própria página identifica o mapa como ilustrativo e esclarece que a localização exibida não é um endereço de atendimento ou de uma barbearia real.
+- O mapa incorporado foi mantido como demonstração técnica, agora configurado para uma visão geral ilustrativa do Brasil, sem marcador intencional de estabelecimento ou endereço de atendimento. A renderização da nova incorporação ainda precisa ser confirmada no navegador.
 - O indicador de foco para navegação por teclado já foi corrigido no PR #1; uma auditoria completa de acessibilidade continua pendente, assim como a revisão dos metadados de SEO.
 
 Esses pontos estão documentados para diferenciar a demonstração educacional de um produto pronto para uso comercial.
