@@ -2,7 +2,7 @@
 
 **Landing page educacional para uma barbearia fictícia.**
 
-Este projeto foi desenvolvido como exercício prático de construção de interfaces web. A página simula a apresentação de uma barbearia, com destaque para serviços, informações do estabelecimento e canais de contato demonstrativos.
+Este projeto foi desenvolvido como exercício prático de construção de interfaces web. A página simula a apresentação de uma barbearia, com destaque para serviços e informações do estabelecimento. Os links do GitHub, LinkedIn e e-mail são canais profissionais do desenvolvedor — não da barbearia fictícia.
 
 > **Nota:** este é um projeto de estudo, não um site comercial entregue a um cliente. As informações sobre a barbearia são ilustrativas.
 
@@ -14,7 +14,7 @@ Este projeto foi desenvolvido como exercício prático de construção de interf
 - Apresentação da barbearia e dos serviços, com imagens e valores ilustrativos.
 - Layout com adaptações para diferentes larguras de tela.
 - Animações de entrada com a biblioteca AOS.
-- Mapa ilustrativo incorporado e ícones de redes sociais ainda demonstrativos.
+- Mapa ilustrativo incorporado e links reais de GitHub, LinkedIn e e-mail do desenvolvedor, identificados como canais profissionais dele (não da barbearia).
 - Aviso visível de que a página é um projeto educacional sem agendamento real.
 
 ## Tecnologias utilizadas
@@ -50,7 +50,7 @@ O CSS compilado já está incluído no repositório. Não é necessário compila
 ## Estado atual e limitações
 
 - Há textos provisórios (`Lorem ipsum`) nas seções de apresentação.
-- Os seis links de redes sociais ainda usam destinos ilustrativos (`#`) e precisam de revisão.
+- Os seis links antes fictícios (`#`) foram substituídos por GitHub, LinkedIn e e-mail do autor, com nomes acessíveis. Esses contatos pertencem ao desenvolvedor, **não à barbearia demonstrativa**.
 - Os dois CTAs que anteriormente simulavam agendamento agora navegam para a seção **Serviços**, sem abrir um WhatsApp fictício.
 - O atalho flutuante de WhatsApp fictício foi retirado; **não há um sistema real de agendamento**.
 - Os preços ainda são apresentados como elementos `<button>` sem ação — melhoria futura.
