@@ -12,8 +12,8 @@ Este projeto foi desenvolvido como exercício prático de construção de interf
 
 - Seção inicial com chamada principal e navegação interna para os serviços.
 - Apresentação da barbearia e dos serviços, com imagens e valores ilustrativos.
-- Layout com adaptações para diferentes larguras de tela.
-- Animações de entrada com a biblioteca AOS.
+- Layout com adaptações para diferentes larguras de tela, incluindo áreas de toque ampliadas para links sociais no mobile.
+- Animações de entrada com a biblioteca AOS, respeitando a preferência de movimento reduzido (`prefers-reduced-motion`).
 - Mapa ilustrativo incorporado e links reais de GitHub, LinkedIn e e-mail do desenvolvedor, identificados como canais profissionais dele (não da barbearia).
 - Aviso visível de que a página é um projeto educacional sem agendamento real.
 
@@ -33,6 +33,7 @@ Este projeto foi desenvolvido como exercício prático de construção de interf
 - `scss/style.css` — CSS compilado utilizado pela página.
 - `js/scripts.js` — inicialização das animações AOS.
 - `imagens/` — imagens, logotipos e ícones utilizados na interface.
+- `scss/style.css.map` — mapa de fontes CSS existente, ainda pendente de recompilação com os estilos mais recentes.
 
 ## Como executar localmente
 
@@ -47,6 +48,8 @@ Este projeto foi desenvolvido como exercício prático de construção de interf
 
 O CSS compilado já está incluído no repositório. Não é necessário compilar o SCSS apenas para visualizar a página. Alguns recursos visuais dependem de conexão com a internet.
 
+Para manutenção dos estilos, o arquivo principal é `scss/style.scss`, que importa os parciais da pasta `partials/`. O CSS utilizado pelo navegador está em `scss/style.css`. O mapa `scss/style.css.map` **não está sincronizado com todas as alterações recentes**: sua regeneração deve ser feita com um compilador Sass e validada antes de ser publicada.
+
 ## Estado atual e limitações
 
 - Os textos provisórios (`Lorem ipsum`) das seções **Sobre** e **Serviços** foram substituídos por conteúdo demonstrativo em português, sem apresentar a barbearia fictícia como um estabelecimento real.
@@ -55,7 +58,10 @@ O CSS compilado já está incluído no repositório. Não é necessário compila
 - O atalho flutuante de WhatsApp fictício foi retirado; **não há um sistema real de agendamento**.
 - Os três preços ilustrativos são apresentados como etiquetas informativas (`<span class="haircut-price">`), sem simular botões ou agendamento real.
 - O mapa incorporado foi mantido como demonstração técnica, configurado para uma visão geral ilustrativa do Brasil, sem marcador intencional de estabelecimento ou endereço de atendimento. O autor confirmou em testes manuais no navegador que o mapa carrega sem destacar um local comercial específico e que a seção permanece organizada em 360 px.
-- O indicador de foco para navegação por teclado já foi corrigido no PR #1; uma auditoria completa de acessibilidade continua pendente, assim como a revisão dos metadados de SEO.
+- O indicador de foco para navegação por teclado foi corrigido anteriormente. Os textos brancos em superfícies de vermelho principal agora utilizam um tom de maior contraste; uma auditoria completa de acessibilidade ainda é necessária.
+- Foram incluídas dimensões intrínsecas para imagens e `loading="lazy"` nos elementos visuais abaixo da primeira tela, buscando reservar proporções e evitar carregar imagens fora de vista prematuramente; **não há métricas de desempenho pré e pós-alteração**.
+- O HTML contém metadados básicos de SEO, URL canônica e informações Open Graph de título, descrição e URL. Uma imagem específica de compartilhamento social ainda não foi preparada.
+- As imagens SVG de fundo e da seção Sobre contêm recursos incorporados relativamente pesados; a conversão/compressão depende de comparação visual e medição e não foi realizada neste pacote.
 
 Esses pontos estão documentados para diferenciar a demonstração educacional de um produto pronto para uso comercial.
 
