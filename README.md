@@ -49,7 +49,7 @@ O CSS compilado já está incluído no repositório. Não é necessário compila
 
 ## Estado atual e limitações
 
-- Há textos provisórios (`Lorem ipsum`) nas seções de apresentação.
+- Os textos provisórios (`Lorem ipsum`) das seções **Sobre** e **Serviços** foram substituídos por conteúdo demonstrativo em português, sem apresentar a barbearia fictícia como um estabelecimento real.
 - Os seis links antes fictícios (`#`) foram substituídos por GitHub, LinkedIn e e-mail do autor, com nomes acessíveis. Esses contatos pertencem ao desenvolvedor, **não à barbearia demonstrativa**.
 - Os dois CTAs que anteriormente simulavam agendamento agora navegam para a seção **Serviços**, sem abrir um WhatsApp fictício.
 - O atalho flutuante de WhatsApp fictício foi retirado; **não há um sistema real de agendamento**.
