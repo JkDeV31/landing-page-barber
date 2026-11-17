@@ -136,7 +136,7 @@ i {
 .button-contact {
   padding: 14px 28px;
   color: #fff;
-  background-color: #d94140;
+  background-color: #cc3938;
   border: 0;
   font-size: 18px;
   font-weight: 600;
@@ -270,7 +270,7 @@ i {
 }
 
 .haircut-info .haircut-price {
-  background-color: #d94140;
+  background-color: #cc3938;
   color: #fff;
   padding: 4px 8px;
   border-radius: 4px;
@@ -391,7 +391,7 @@ a {
 }
 
 :focus-visible {
-  outline: 3px solid #d94140;
+  outline: 3px solid #cc3938;
   outline-offset: 3px;
 }
 
