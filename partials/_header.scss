@@ -74,6 +74,20 @@ i {
         margin-top: 46px;
     }
 
+    // Garante uma área de toque confortável para os ícones em telas pequenas.
+    .header-icons a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+    // Remove o deslocamento vertical interno ao usar alvos flexíveis.
+    .header-icons i {
+        margin-top: 0;
+    }
+
     .header-button {
         display: none;
     }

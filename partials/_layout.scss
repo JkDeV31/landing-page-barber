@@ -256,6 +256,26 @@
   color: $white-normal;
 }
 
+// Em telas pequenas, os links de contato mantêm alvos de toque de 44 px.
+@media screen and (max-width: 768px) {
+  .footer-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .footer > p {
+    text-align: center;
+  }
+
+  .footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
 // --------------------------
 
 // Button Whatsapp
