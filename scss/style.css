@@ -276,6 +276,13 @@ i {
     max-width: 740px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .haircuts {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
 .footer {
   display: flex;
   flex-direction: column;
