@@ -42,3 +42,25 @@ a {
     outline: 3px solid $red-normal;
     outline-offset: 3px;
 }
+
+// Respeita a preferência de acessibilidade por menos movimento.
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    // Evita conteúdo invisível quando as entradas do AOS estão desativadas.
+    [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+
+    .haircut img:hover,
+    .btn-whatsapp img:hover {
+        transform: none !important;
+    }
+}
