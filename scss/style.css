@@ -73,6 +73,16 @@ i {
     width: 160px;
     margin-top: 46px;
   }
+  .header-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .header-icons i {
+    margin-top: 0;
+  }
   .header-button {
     display: none;
   }
@@ -297,6 +307,22 @@ i {
   display: flex;
   gap: 8px;
   color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .footer-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .footer > p {
+    text-align: center;
+  }
+  .footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 .btn-whatsapp {
