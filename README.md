@@ -50,6 +50,12 @@ O CSS compilado já está incluído no repositório. Não é necessário compila
 
 Para manutenção dos estilos, o arquivo principal é `scss/style.scss`, que importa os parciais da pasta `partials/`. O CSS utilizado pelo navegador está em `scss/style.css`. O mapa `scss/style.css.map` **não está sincronizado com todas as alterações recentes**: sua regeneração deve ser feita com um compilador Sass e validada antes de ser publicada.
 
+## Prévia social
+
+A capa de compartilhamento está em [`imagens/preview-social-barber.png`](imagens/preview-social-barber.png), em **1200 × 630 px**. Ela identifica a marca **JkDeV**, o título **Landing Page Barber** e o caráter de **Projeto educacional**. É uma ilustração gerada com IA para apresentar o projeto, não uma captura literal da interface nem um trabalho entregue a um cliente.
+
+O `index.html` define título, descrição, URL, imagem e texto alternativo em Open Graph, além do cartão `summary_large_image` para redes que utilizam Twitter Cards. As URLs são absolutas e apontam para a demonstração no GitHub Pages. A imagem só ficará acessível por essas URLs depois da publicação; redes sociais podem manter prévias antigas em cache.
+
 ## Estado atual e limitações
 
 - Os textos provisórios (`Lorem ipsum`) das seções **Sobre** e **Serviços** foram substituídos por conteúdo demonstrativo em português, sem apresentar a barbearia fictícia como um estabelecimento real.
@@ -60,7 +66,7 @@ Para manutenção dos estilos, o arquivo principal é `scss/style.scss`, que imp
 - O mapa incorporado foi mantido como demonstração técnica, configurado para uma visão geral ilustrativa do Brasil, sem marcador intencional de estabelecimento ou endereço de atendimento. O autor confirmou em testes manuais no navegador que o mapa carrega sem destacar um local comercial específico e que a seção permanece organizada em 360 px.
 - O indicador de foco para navegação por teclado foi corrigido anteriormente. Os textos brancos em superfícies de vermelho principal agora utilizam um tom de maior contraste; uma auditoria completa de acessibilidade ainda é necessária.
 - Foram incluídas dimensões intrínsecas para imagens e `loading="lazy"` nos elementos visuais abaixo da primeira tela, buscando reservar proporções e evitar carregar imagens fora de vista prematuramente; **não há métricas de desempenho pré e pós-alteração**.
-- O HTML contém metadados básicos de SEO, URL canônica e informações Open Graph de título, descrição e URL. Uma imagem específica de compartilhamento social ainda não foi preparada.
+- O HTML contém metadados básicos de SEO, URL canônica e uma prévia social específica, documentada acima. A aparência final do cartão depende da rede social e de seu cache.
 - As imagens SVG de fundo e da seção Sobre contêm recursos incorporados relativamente pesados; a conversão/compressão depende de comparação visual e medição e não foi realizada neste pacote.
 
 Esses pontos estão documentados para diferenciar a demonstração educacional de um produto pronto para uso comercial.
