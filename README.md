@@ -8,6 +8,12 @@ Este projeto foi desenvolvido como exercício prático de construção de interf
 
 🔗 **[Visualizar a demonstração](https://jkdev31.github.io/landing-page-barber/)**
 
+## Prévia da página
+
+![Captura real da versão desktop da Landing Page Barber, mostrando a apresentação, a seção Sobre e os três serviços](imagens/preview-desktop-barber.webp)
+
+*Captura desktop da interface publicada, com as animações temporariamente desativadas no navegador para registrar os elementos visíveis.*
+
 ## Funcionalidades e elementos da página
 
 - Seção inicial com chamada principal e navegação interna para os serviços.
